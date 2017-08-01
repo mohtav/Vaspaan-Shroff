@@ -1,0 +1,91 @@
+@font-face {
+ font-family: "Politica";
+ src: url("fonts/Politica.ttf");
+ }
+ #custom-row{
+   margin-left: 0px;
+   margin-right: 0px;
+ }
+
+#nav-container{
+  width: 960px;
+}
+
+.gal {
+
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    column-gap: 4px;
+
+	}
+	.gal img{
+    width: 100%;
+   padding: 1px 0;
+ }
+@media (max-width: 500px) {
+
+		.gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
+	}
+	}
+
+.custom-well{
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: inherit;
+  border: none;
+}
+#AboutUs {
+  height: 100%;
+
+}
+.bg{
+  /* The image used */
+    background-image: url("../img/Profile/Vaspaan.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-text-color{
+  color: black;
+  text-align: left;
+  /*background-color: rgba(13,32,43,0.95);*/
+}
+
+/*#success_message{ display: none;}*/
+
+/*.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}*/
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}

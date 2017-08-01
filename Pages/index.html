@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vaspaan Shroff</title>
+    <link rel="icon" href="../img/Profile/Tab-Logo.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/grayscale/grayscale.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <link href="../css/carousal.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+<nav class="navbar nav-container navbar-custom navbar-fixed-top" role="navigation">
+    <div class="custom-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+            <div class="navbar-header">
+              <a href="../Pages/index.html" class="navbar-brand" style="font-family:Politica;font-size:35px">Vaspaan Shroff</a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+
+                <li>
+                    <a href="../Pages/Portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="../Pages/Portraits.html">Portraits</a>
+                </li>
+                <li>
+                    <a href="../Pages/Fineart.html">Fineart</a>
+                </li>
+                <li>
+                    <a href="../Pages/Composites.html">Composites</a>
+                </li>
+                <li>
+                    <a href="../Pages/About.html">About</a>
+                </li>
+            </ul>
+        </div>
+       <div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="margin-right:0px">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li><a href="https://www.facebook.com/vaspaanphotography/" target="_blank" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+                <li><a href="https://www.pinterest.com/vaspaanshroff/" target="_blank" class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
+                <li><a href="https://500px.com/vaspaanshroff" target="_blank"><i class="fa fa-500px"></i></a></li>
+                <li><a href="https://www.instagram.com/vaspaan95/" target="_blank" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a></li>
+                <li><a href="https://vaspaanshroff.tumblr.com/" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+                <li><a class="icons-sm email-ic"><i class="fa fa-envelope-o" data-toggle="modal" data-target="#myModal"></i></a></li>
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+      <!-- Intro Header -->
+  <header id="myCarousel" class="carousel slide carousal-fade">
+
+    <div class="carousel slide carousel-fade" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active" id="firstImg">
+                    </div>
+                    <div class="item">
+                    </div>
+                    <div class="item">
+                    </div>
+                    <div class="item">
+                      </div>
+                </div>
+              </div>
+
+      </header>
+      <!-- Modal for Email Icon-->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header modal-text-color">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title modal-text-color">Contact Me!</h4>
+                  </div>
+                  <div class="modal-body modal-text-color">
+
+                  <form id="contact-form" method="post" action="contact.php" class="form-horizontal" role="form">
+
+                      <div class="form-group row">
+                          <label  class="col-sm-3 control-label" for="form_fname">First Name</label>
+                            <div class="col-sm-9">
+                            <input id="form_fname" type="text" name="fname" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required."/>
+                            <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                      <div class="form-group row">
+                          <label  class="col-sm-3 control-label" for="form_lname">Last Name</label>
+                            <div class="col-sm-9">
+                            <input id="form_lname" type="text" name="lname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required."/>
+                            <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                      <div class="form-group row">
+                          <label  class="col-sm-3 control-label" for="form_email">Email</label>
+                            <div class="col-sm-9">
+                            <input id="form_email" type="text" name="email" class="form-control" placeholder="Please enter your Email ID" required="required" data-error="Email ID is required."/>
+                            <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                      <div class="form-group row">
+                          <label  class="col-sm-3 control-label" for="form_email">Message</label>
+                            <div class="col-sm-9">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Drop me a message" rows="4" required="required" data-error="Please,leave me a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                      <div class="form-group row">
+                        <div class="col-sm-offset-1 col-sm-10">
+                          <input type="submit" class="btn btn-success" value="send message">
+                        </div>
+                      </div>
+                </form>
+                  </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- End of Email-->
+
+    <!-- jQuery -->
+    <!-- <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script> -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/grayscale/grayscale.js"></script>
+
+</body>
+
+</html>
