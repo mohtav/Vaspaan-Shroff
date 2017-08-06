@@ -141,7 +141,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: rgb(202,202,202);
 
 }
 
@@ -155,7 +155,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color:#fff;
     background-color: transparent;
 }
 
@@ -175,6 +175,10 @@ a:focus {
 
 .navbar-custom .nav li.active a:hover {
     color: #fff;
+}
+
+.navbar-custom .navbar-brand{
+  color: #ffffff;
 }
 
 @media(min-width:768px) {
