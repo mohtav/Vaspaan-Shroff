@@ -61,12 +61,6 @@
   /*background-color: rgba(13,32,43,0.95);*/
 }
 
-/*#success_message{ display: none;}*/
-
-/*.form-group.required .control-label:after {
-  content:"*";
-  color:red;
-}*/
 
 .carousel,
 .item,
@@ -89,3 +83,9 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+.email-tooltip + .tooltip > .tooltip-inner {background-color: rgba(21,21,21,0.76); font-size: 15px; }
+.email-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:rgba(21,21,21,0.76); }
+
+.mobile-tooltip + .tooltip > .tooltip-inner {background-color: rgba(21,21,21,0.76); font-size: 15px;}
+.mobile-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:rgba(21,21,21,0.76); }
