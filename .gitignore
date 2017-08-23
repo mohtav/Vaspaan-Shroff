@@ -1,2 +1,5 @@
 grunt/*
-lightbox/*
+**/lightbox.js
+**/jquery.zoom.js
+**/jquery.zoom.min.js
+**/lightbox.css
