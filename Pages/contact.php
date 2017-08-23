@@ -6,9 +6,9 @@
   <?php
 
 
- $constants= parse_ini_file("email_config.ini");
+ $constants= parse_ini_file("../email_config.ini");
 
-  require '../Pages/PHPMailer-master/PHPMailerAutoload.php';
+  require '../PHPMailer-master/PHPMailerAutoload.php';
 
   $mail = new PHPMailer;
   $first_name = $_POST['fname'];
@@ -24,13 +24,13 @@
 
   //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-  $mail->isSMTP();                                      // Set mailer to use SMTP
+  //$mail->isSMTP();                                      // Set mailer to use SMTP
   $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
   $mail->Username = $constants['username'];                 // SMTP username
   $mail->Password = $constants['password'];                           // SMTP password
   $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-  $mail->Port = 587;                                    // TCP port to connect to
+  $mail->Port = 465;                                    // TCP port to connect to
 
   $mail->setFrom($email,$first_name." ".$last_name);
   $mail->addAddress('info@vaspaanshroff.com', 'Vaspaan Shroff');     // Add a recipient
